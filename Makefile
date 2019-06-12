@@ -7,7 +7,7 @@ CXX=g++
 RM=rm -rf
 LDLIBS= -lpython2.7
 CPPFLAGS=-std=c++11 -Wfatal-errors -Wall -I/usr/include/python2.7 
-SRCS=headers/matplotlibcpp.h mcl.cpp
+SRCS=include/matplotlibcpp.h mcl.cpp
 OBJS=$(subst .cpp,.o,$(SRCS))
 HDRS=$(subst .cpp,.h.gch,$(SRCS))
 
