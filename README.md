@@ -18,6 +18,17 @@ $ ./mcl
 ```
 Wait for the program to iterate `50` times.
 
+## Errors
+
+1. "/usr/local/include/numpy/ndarrayobject.h:11:10: fatal error: 'Python.h' file not found #include <Python.h>"
+```
+Fix: export CFLAGS="-I /usr/local/lib/python3.7/site-packages/numpy/core/include $CFLAGS"
+```
+
+2. fatal error: 'Python.h'
+```
+Fix: <Python/Python.h>
+```
 ## Generated Images
 After running the program, `50` images will be generated in the `Images` folder.
 ### Step0
