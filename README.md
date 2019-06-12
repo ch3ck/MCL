@@ -13,7 +13,7 @@ $ cd /home/workspace/
 $ git clone https://github.com/Ch3ck/MCL.git
 $ cd MCL/
 $ rm -rf Images/*
-$ g++ mcl.cpp -o mcl -std=c++11 -I/usr/include/python2.7 -lpython2.7 # or make
+$ g++ mcl.cpp -o mcl -std=c++11 -I/usr/include/python3.7 -lpython3.7 # or make
 $ ./mcl
 ```
 Wait for the program to iterate `50` times.

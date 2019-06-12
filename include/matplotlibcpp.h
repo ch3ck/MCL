@@ -12,7 +12,7 @@
 #include <functional>
 #endif
 
-#include <Python.h>
+#include <Python/Python.h> //  or <Python.h>
 
 #ifndef WITHOUT_NUMPY
   #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
