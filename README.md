@@ -6,21 +6,21 @@ Monte Carlo Localization Algorithm
 You will be able to observe the `MCL` in action through the generated images. 
 
 
-### Build & Run
+## Build & Run
 Make sure you have opencv installed locally
 ```sh
 $ cd /home/workspace/
 $ git clone https://github.com/Ch3ck/MCL.git
 $ cd MCL/
 $ rm -rf Images/*
-$ g++ mcl.cpp -o mcl -std=c++11 -I/usr/include/python2.7 -lpython2.7
+$ g++ mcl.cpp -o mcl -std=c++11 -I/usr/include/python2.7 -lpython2.7 # or make
 $ ./mcl
 ```
 Wait for the program to iterate `50` times.
 
-### Generated Images
+## Generated Images
 After running the program, `50` images will be generated in the `Images` folder.
-#### Step0
+### Step0
 ![alt text](Images/Step0.png)
-#### Step49
+### Step49
 ![alt text](Images/Step49.png)
